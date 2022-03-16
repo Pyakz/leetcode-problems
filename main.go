@@ -27,7 +27,7 @@ func main() {
 // 	matcherIndex := 0
 // 	for index, num := range nums {
 // 		if currentValue == target {
-// 			matcherIndex = index
+// 			matcherIndex = index - 1
 // 		}
 // 		currentValue = currentValue + num
 // 	}
